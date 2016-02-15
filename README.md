@@ -17,3 +17,6 @@ SDKの導入手順に関しては下記ページをご確認ください。
 
 https://ms.zucksadnetwork.com/media/sdk/manual/android/
 
+## LICENSE
+
+Copyright (C) Zucks, Inc.
