@@ -3,7 +3,7 @@
   <groupId>net.zucks</groupId>
   <artifactId>zucks-ad-network-sdk</artifactId>
   <versioning>
-    <release>4.5.0</release>
+    <release>4.5.1</release>
     <versions>
       <version>4.0.0</version>
       <version>4.1.0</version>
@@ -19,7 +19,8 @@
       <version>4.4.1</version>
       <version>4.4.2</version>
       <version>4.5.0</version>
+      <version>4.5.1</version>
     </versions>
-    <lastUpdated>20170530035353</lastUpdated>
+    <lastUpdated>20170602055449</lastUpdated>
   </versioning>
 </metadata>
