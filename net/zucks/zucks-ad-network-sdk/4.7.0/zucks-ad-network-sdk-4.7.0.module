@@ -1,0 +1,62 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.zucks",
+    "module": "zucks-ad-network-sdk",
+    "version": "4.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "lmbjqtseobf4boxjeatgzajdpq"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "16.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-sdk-4.7.0.aar",
+          "url": "zucks-ad-network-sdk-4.7.0.aar",
+          "size": 141802,
+          "sha512": "3ff142780b11c330501f7d1fb6bf25af552c7fc85007c0f9b35d0183f7a2288e88e8852b153200142938c68ddadb9b84fdb76b919ad9b3a880a9d5cc936d58fa",
+          "sha256": "3eff8d235af59be65d6f704151b2832a49b4297aa2b07a1f323055f5b2087e17",
+          "sha1": "4810e772760a93499f2b42600a3557b6e65d99bc",
+          "md5": "6d6fd90f4a8ede9c082a2e1395f661da"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "zucks-ad-network-sdk-4.7.0.aar",
+          "url": "zucks-ad-network-sdk-4.7.0.aar",
+          "size": 141802,
+          "sha512": "3ff142780b11c330501f7d1fb6bf25af552c7fc85007c0f9b35d0183f7a2288e88e8852b153200142938c68ddadb9b84fdb76b919ad9b3a880a9d5cc936d58fa",
+          "sha256": "3eff8d235af59be65d6f704151b2832a49b4297aa2b07a1f323055f5b2087e17",
+          "sha1": "4810e772760a93499f2b42600a3557b6e65d99bc",
+          "md5": "6d6fd90f4a8ede9c082a2e1395f661da"
+        }
+      ]
+    }
+  ]
+}
