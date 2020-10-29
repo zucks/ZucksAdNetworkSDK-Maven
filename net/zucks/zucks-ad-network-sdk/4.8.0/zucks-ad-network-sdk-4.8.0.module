@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.zucks",
+    "module": "zucks-ad-network-sdk",
+    "version": "4.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "x3xwdsupgnbyfj3ha62y5shrnq"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks.sdk",
+          "module": "core",
+          "version": {
+            "requires": "4.8.0"
+          }
+        },
+        {
+          "group": "net.zucks.sdk",
+          "module": "rewarded-ad",
+          "version": {
+            "requires": "4.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-sdk-4.8.0.aar",
+          "url": "zucks-ad-network-sdk-4.8.0.aar",
+          "size": 13374,
+          "sha512": "3632dbef73833537f6e07a8bb8f5c411240a9e9cd0c51d526f99f4634d0ce41004192243a2eba5ae6b54f216fccd0da934fb8e92b81f56a3479968ac5e17270e",
+          "sha256": "fa334e218edaeb90e9d12017a35d893bda300e553fbc0b921d8b7372dd74f259",
+          "sha1": "9ac159358eea168aeb92e6be5895d8ec98bf7598",
+          "md5": "d376f3929dc3c2a3f1fb154e1b4068b4"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks.sdk",
+          "module": "core",
+          "version": {
+            "requires": "4.8.0"
+          }
+        },
+        {
+          "group": "net.zucks.sdk",
+          "module": "rewarded-ad",
+          "version": {
+            "requires": "4.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-sdk-4.8.0.aar",
+          "url": "zucks-ad-network-sdk-4.8.0.aar",
+          "size": 13374,
+          "sha512": "3632dbef73833537f6e07a8bb8f5c411240a9e9cd0c51d526f99f4634d0ce41004192243a2eba5ae6b54f216fccd0da934fb8e92b81f56a3479968ac5e17270e",
+          "sha256": "fa334e218edaeb90e9d12017a35d893bda300e553fbc0b921d8b7372dd74f259",
+          "sha1": "9ac159358eea168aeb92e6be5895d8ec98bf7598",
+          "md5": "d376f3929dc3c2a3f1fb154e1b4068b4"
+        }
+      ]
+    }
+  ]
+}
