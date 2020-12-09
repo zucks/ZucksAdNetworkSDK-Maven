@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.zucks",
+    "module": "zucks-ad-network-sdk",
+    "version": "4.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ins7uzrztzf7fpcwxpej46czmu"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks.sdk",
+          "module": "core",
+          "version": {
+            "requires": "4.8.2"
+          }
+        },
+        {
+          "group": "net.zucks.sdk",
+          "module": "rewarded-ad",
+          "version": {
+            "requires": "4.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-sdk-4.8.2.aar",
+          "url": "zucks-ad-network-sdk-4.8.2.aar",
+          "size": 13375,
+          "sha512": "9fcf025915063dd264f11e9a4f0e556199d2cdfa08583279880c69314d4ad927998b6c342fe28634b0b562da306d252568b8cb6d6400b0fbd4d86c2cb91f7aee",
+          "sha256": "8f019b8d04bb2ffa055fea7aadbceae5790d29dc69a707af33f72f4d8fa73775",
+          "sha1": "806c2e1cbdc5878e7f27102fe4837973c2e31383",
+          "md5": "bad186f22a1f84e3906298c01bacb4e8"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks.sdk",
+          "module": "core",
+          "version": {
+            "requires": "4.8.2"
+          }
+        },
+        {
+          "group": "net.zucks.sdk",
+          "module": "rewarded-ad",
+          "version": {
+            "requires": "4.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-sdk-4.8.2.aar",
+          "url": "zucks-ad-network-sdk-4.8.2.aar",
+          "size": 13375,
+          "sha512": "9fcf025915063dd264f11e9a4f0e556199d2cdfa08583279880c69314d4ad927998b6c342fe28634b0b562da306d252568b8cb6d6400b0fbd4d86c2cb91f7aee",
+          "sha256": "8f019b8d04bb2ffa055fea7aadbceae5790d29dc69a707af33f72f4d8fa73775",
+          "sha1": "806c2e1cbdc5878e7f27102fe4837973c2e31383",
+          "md5": "bad186f22a1f84e3906298c01bacb4e8"
+        }
+      ]
+    }
+  ]
+}
