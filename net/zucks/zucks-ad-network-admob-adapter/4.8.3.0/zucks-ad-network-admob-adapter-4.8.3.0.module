@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.zucks",
+    "module": "zucks-ad-network-admob-adapter",
+    "version": "4.8.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "yfzxc4rvlzddxmnmpaav6exsye"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "19.6.0"
+          }
+        },
+        {
+          "group": "net.zucks",
+          "module": "zucks-ad-network-sdk",
+          "version": {
+            "requires": "4.8.3"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-admob-adapter-4.8.3.0.aar",
+          "url": "zucks-ad-network-admob-adapter-4.8.3.0.aar",
+          "size": 31081,
+          "sha512": "eff288532dd285f34ac24af08b49af4d91a695235620c0de3ac5db800e71ae5addb77ecde50370bcfbe27ecf1566eac3a2090909a4982ddd3a2e4f83b55ac6f9",
+          "sha256": "f72a32eece7285be7c90d4729bde9ba4d68ee9b154e6ff71e8e8e0c2a9e5d98e",
+          "sha1": "1b35757f7a5250ede299ec59f03c0b4cba76e58e",
+          "md5": "94efabda438eef75410a2ed6d80ec708"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks",
+          "module": "zucks-ad-network-sdk",
+          "version": {
+            "requires": "4.8.3"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-admob-adapter-4.8.3.0.aar",
+          "url": "zucks-ad-network-admob-adapter-4.8.3.0.aar",
+          "size": 31081,
+          "sha512": "eff288532dd285f34ac24af08b49af4d91a695235620c0de3ac5db800e71ae5addb77ecde50370bcfbe27ecf1566eac3a2090909a4982ddd3a2e4f83b55ac6f9",
+          "sha256": "f72a32eece7285be7c90d4729bde9ba4d68ee9b154e6ff71e8e8e0c2a9e5d98e",
+          "sha1": "1b35757f7a5250ede299ec59f03c0b4cba76e58e",
+          "md5": "94efabda438eef75410a2ed6d80ec708"
+        }
+      ]
+    }
+  ]
+}
