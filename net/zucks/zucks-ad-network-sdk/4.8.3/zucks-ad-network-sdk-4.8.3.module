@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.zucks",
+    "module": "zucks-ad-network-sdk",
+    "version": "4.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "wfdklq4jq5bw3pkx6pxrryctua"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks.sdk",
+          "module": "core",
+          "version": {
+            "requires": "4.8.3"
+          }
+        },
+        {
+          "group": "net.zucks.sdk",
+          "module": "rewarded-ad",
+          "version": {
+            "requires": "4.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-sdk-4.8.3.aar",
+          "url": "zucks-ad-network-sdk-4.8.3.aar",
+          "size": 13375,
+          "sha512": "d57c70e2c9b3ab346f889c32b7f945c1278bccd7832f7ff9a64b105f47424e5a4e13a4c1eb53a8e0e2ed28bd3843b54fec6cdd10dd932ca60fd5c97896f62d20",
+          "sha256": "a75121ba61154f39d996be35283fd362594e13c4b2af8d41b3726247d45d3554",
+          "sha1": "7501a533a60a77c0cd824b274c4267f0dbd51478",
+          "md5": "197cf77bcaa27055120aa662fd5d54b8"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks.sdk",
+          "module": "core",
+          "version": {
+            "requires": "4.8.3"
+          }
+        },
+        {
+          "group": "net.zucks.sdk",
+          "module": "rewarded-ad",
+          "version": {
+            "requires": "4.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-sdk-4.8.3.aar",
+          "url": "zucks-ad-network-sdk-4.8.3.aar",
+          "size": 13375,
+          "sha512": "d57c70e2c9b3ab346f889c32b7f945c1278bccd7832f7ff9a64b105f47424e5a4e13a4c1eb53a8e0e2ed28bd3843b54fec6cdd10dd932ca60fd5c97896f62d20",
+          "sha256": "a75121ba61154f39d996be35283fd362594e13c4b2af8d41b3726247d45d3554",
+          "sha1": "7501a533a60a77c0cd824b274c4267f0dbd51478",
+          "md5": "197cf77bcaa27055120aa662fd5d54b8"
+        }
+      ]
+    }
+  ]
+}
