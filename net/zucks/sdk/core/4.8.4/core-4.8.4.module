@@ -1,0 +1,62 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.zucks.sdk",
+    "module": "core",
+    "version": "4.8.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "y55g3hkgxfcdvbiibfvhz67lv4"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "16.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-4.8.4.aar",
+          "url": "core-4.8.4.aar",
+          "size": 145947,
+          "sha512": "08e6769dd74f4395d01db928dce30d268acb1b5ca866294ca16c38f890005946cb682b6fafb939434a25418f8143eb22c7814be803af3060163686413a96c16a",
+          "sha256": "a87006bde8861b0ea9841501adf9f620e8c901343cb6d2c7c3895ffb41645c38",
+          "sha1": "07e3dc74d97637482bf1bcd79095aee4566aea35",
+          "md5": "56d0c66e27a662d1f234bb33b1bc8833"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "core-4.8.4.aar",
+          "url": "core-4.8.4.aar",
+          "size": 145947,
+          "sha512": "08e6769dd74f4395d01db928dce30d268acb1b5ca866294ca16c38f890005946cb682b6fafb939434a25418f8143eb22c7814be803af3060163686413a96c16a",
+          "sha256": "a87006bde8861b0ea9841501adf9f620e8c901343cb6d2c7c3895ffb41645c38",
+          "sha1": "07e3dc74d97637482bf1bcd79095aee4566aea35",
+          "md5": "56d0c66e27a662d1f234bb33b1bc8833"
+        }
+      ]
+    }
+  ]
+}
