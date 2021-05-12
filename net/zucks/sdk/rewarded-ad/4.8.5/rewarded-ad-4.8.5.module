@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.zucks.sdk",
+    "module": "rewarded-ad",
+    "version": "4.8.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "fys5d6nf4vf4tjdzf3uuftyunm"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.support",
+          "module": "appcompat-v7",
+          "version": {
+            "requires": "28.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "requires": "2.8.4"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-ui",
+          "version": {
+            "requires": "2.8.4"
+          }
+        },
+        {
+          "group": "net.zucks.sdk",
+          "module": "core",
+          "version": {
+            "requires": "4.8.5"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "support-fragment",
+          "version": {
+            "requires": "28.0.0"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "support-annotations",
+          "version": {
+            "requires": "28.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewarded-ad-4.8.5.aar",
+          "url": "rewarded-ad-4.8.5.aar",
+          "size": 188723,
+          "sha512": "a2134b38965b9aa794491e1b4e57de25b2784ded1ed1d6e7092305fa953b78154c4a37affce5cb2928c17234bee59b9ab0337521cba3faa7e92a23461a337ce4",
+          "sha256": "db4b8060f0675af8d5a677b97dabd68ea85b737658cc65269989445dab92f012",
+          "sha1": "94d32402b7a4c3d2db28e3b2b90844ad3df7e66e",
+          "md5": "1ad9b57ce1930b18320c0ad9bd50832d"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks.sdk",
+          "module": "core",
+          "version": {
+            "requires": "4.8.5"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "support-fragment",
+          "version": {
+            "requires": "28.0.0"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "support-annotations",
+          "version": {
+            "requires": "28.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewarded-ad-4.8.5.aar",
+          "url": "rewarded-ad-4.8.5.aar",
+          "size": 188723,
+          "sha512": "a2134b38965b9aa794491e1b4e57de25b2784ded1ed1d6e7092305fa953b78154c4a37affce5cb2928c17234bee59b9ab0337521cba3faa7e92a23461a337ce4",
+          "sha256": "db4b8060f0675af8d5a677b97dabd68ea85b737658cc65269989445dab92f012",
+          "sha1": "94d32402b7a4c3d2db28e3b2b90844ad3df7e66e",
+          "md5": "1ad9b57ce1930b18320c0ad9bd50832d"
+        }
+      ]
+    }
+  ]
+}
