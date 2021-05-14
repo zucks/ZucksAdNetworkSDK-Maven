@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.zucks",
+    "module": "zucks-ad-network-mopub-adapter",
+    "version": "4.8.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "fkdaymn5dffwdp7d7e5equ4ygu"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks",
+          "module": "zucks-ad-network-sdk",
+          "version": {
+            "requires": "4.8.6"
+          }
+        },
+        {
+          "group": "com.mopub",
+          "module": "mopub-sdk",
+          "version": {
+            "requires": "5.14.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-mopub-adapter-4.8.6.0.aar",
+          "url": "zucks-ad-network-mopub-adapter-4.8.6.0.aar",
+          "size": 34452,
+          "sha512": "b63e4087bc1089158a05591cb0ae3c16e4fe131590eaf2a840c36df524278a807719f891f5be9934384d033ef8170ec948a506cb68e80328abdfc19b9c8d0aa8",
+          "sha256": "41f3144b884788e795fc4bd77b5d7522233bf3bdff7cc3ea0ac33d657c170e38",
+          "sha1": "4687640654dc7ee34723668c23b235a3be858932",
+          "md5": "e434613165e3db19883d462eaeef45b2"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks",
+          "module": "zucks-ad-network-sdk",
+          "version": {
+            "requires": "4.8.6"
+          }
+        },
+        {
+          "group": "com.mopub",
+          "module": "mopub-sdk",
+          "version": {
+            "requires": "5.14.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-mopub-adapter-4.8.6.0.aar",
+          "url": "zucks-ad-network-mopub-adapter-4.8.6.0.aar",
+          "size": 34452,
+          "sha512": "b63e4087bc1089158a05591cb0ae3c16e4fe131590eaf2a840c36df524278a807719f891f5be9934384d033ef8170ec948a506cb68e80328abdfc19b9c8d0aa8",
+          "sha256": "41f3144b884788e795fc4bd77b5d7522233bf3bdff7cc3ea0ac33d657c170e38",
+          "sha1": "4687640654dc7ee34723668c23b235a3be858932",
+          "md5": "e434613165e3db19883d462eaeef45b2"
+        }
+      ]
+    }
+  ]
+}
