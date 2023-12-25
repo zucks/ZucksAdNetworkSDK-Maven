@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.zucks",
+    "module": "zucks-ad-network-admob-adapter",
+    "version": "6.0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks",
+          "module": "zucks-ad-network-sdk",
+          "version": {
+            "requires": "6.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-admob-adapter-6.0.1.0.aar",
+          "url": "zucks-ad-network-admob-adapter-6.0.1.0.aar",
+          "size": 43412,
+          "sha512": "4ef9e2a7845ed5a2ae276d40cbe219f91a94737f5b4e31d997e2880d419ea0d2322b99c0cf2c6381a5472c3ed3623ab6f776ed907d30e695f8d2712199cd412d",
+          "sha256": "e4bf880bc11cbd3a4657e8dda3e6db46804163b11e87fe16c2aaa31ffa14bf31",
+          "sha1": "cde200c283b49cb3a3925458adf8acf22beeebdf",
+          "md5": "53b1c3c8e58313a38e03e5076b389107"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks",
+          "module": "zucks-ad-network-sdk",
+          "version": {
+            "requires": "6.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "19.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-admob-adapter-6.0.1.0.aar",
+          "url": "zucks-ad-network-admob-adapter-6.0.1.0.aar",
+          "size": 43412,
+          "sha512": "4ef9e2a7845ed5a2ae276d40cbe219f91a94737f5b4e31d997e2880d419ea0d2322b99c0cf2c6381a5472c3ed3623ab6f776ed907d30e695f8d2712199cd412d",
+          "sha256": "e4bf880bc11cbd3a4657e8dda3e6db46804163b11e87fe16c2aaa31ffa14bf31",
+          "sha1": "cde200c283b49cb3a3925458adf8acf22beeebdf",
+          "md5": "53b1c3c8e58313a38e03e5076b389107"
+        }
+      ]
+    }
+  ]
+}
