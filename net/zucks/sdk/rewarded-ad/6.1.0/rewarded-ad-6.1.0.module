@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.zucks.sdk",
+    "module": "rewarded-ad",
+    "version": "6.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "exoplayerDefaultReleaseVariantExoplayerDefaultReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks.sdk",
+          "module": "core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewarded-ad-6.1.0.aar",
+          "url": "rewarded-ad-6.1.0.aar",
+          "size": 193755,
+          "sha512": "43b3d99e5ab964810d8b735546afe2034f9035759ea552f4785706f332bab827e4a97619e1c3ce505de8ce4fcb930341265495f7d897a6b89dbaf0144bf7532b",
+          "sha256": "44ee67b9b5b17bacd7ddf32ca4271f92218c8e2070a6718cc7b79c11886f634e",
+          "sha1": "470f21432a2f40f5defbdd97ced567d9b8d851cd",
+          "md5": "beff0143a02387bfdbeae7a92f10887d"
+        }
+      ]
+    },
+    {
+      "name": "exoplayerDefaultReleaseVariantExoplayerDefaultReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "strictly": "[2.15.1,)",
+            "requires": "[2.15.1,)",
+            "prefers": "2.18.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-ui",
+          "version": {
+            "strictly": "[2.15.1,)",
+            "requires": "[2.15.1,)",
+            "prefers": "2.18.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.zucks.sdk",
+          "module": "core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewarded-ad-6.1.0.aar",
+          "url": "rewarded-ad-6.1.0.aar",
+          "size": 193755,
+          "sha512": "43b3d99e5ab964810d8b735546afe2034f9035759ea552f4785706f332bab827e4a97619e1c3ce505de8ce4fcb930341265495f7d897a6b89dbaf0144bf7532b",
+          "sha256": "44ee67b9b5b17bacd7ddf32ca4271f92218c8e2070a6718cc7b79c11886f634e",
+          "sha1": "470f21432a2f40f5defbdd97ced567d9b8d851cd",
+          "md5": "beff0143a02387bfdbeae7a92f10887d"
+        }
+      ]
+    }
+  ]
+}
