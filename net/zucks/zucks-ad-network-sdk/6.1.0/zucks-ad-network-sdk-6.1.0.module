@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.zucks",
+    "module": "zucks-ad-network-sdk",
+    "version": "6.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks.sdk",
+          "module": "core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "net.zucks.sdk",
+          "module": "rewarded-ad",
+          "version": {
+            "requires": "6.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-sdk-6.1.0.aar",
+          "url": "zucks-ad-network-sdk-6.1.0.aar",
+          "size": 15832,
+          "sha512": "5b34ca1a5ef1bbf90955aff0c4ab069b4ef3a50b05c092a7ddf795da924635f6beedfddbca459851ae14eb56be4bd364271141fb5c10c5da3d4ba1fab4fb2712",
+          "sha256": "4984d9a041354d529016c881e3ff959471f32f2f9208f69e5772d2c3d131aa62",
+          "sha1": "fcf9b91726444dd435d46ecf74e35f840db4c6de",
+          "md5": "0f92694c06a0f459a9ba40528b71b3b7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.zucks.sdk",
+          "module": "core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "net.zucks.sdk",
+          "module": "rewarded-ad",
+          "version": {
+            "requires": "6.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zucks-ad-network-sdk-6.1.0.aar",
+          "url": "zucks-ad-network-sdk-6.1.0.aar",
+          "size": 15832,
+          "sha512": "5b34ca1a5ef1bbf90955aff0c4ab069b4ef3a50b05c092a7ddf795da924635f6beedfddbca459851ae14eb56be4bd364271141fb5c10c5da3d4ba1fab4fb2712",
+          "sha256": "4984d9a041354d529016c881e3ff959471f32f2f9208f69e5772d2c3d131aa62",
+          "sha1": "fcf9b91726444dd435d46ecf74e35f840db4c6de",
+          "md5": "0f92694c06a0f459a9ba40528b71b3b7"
+        }
+      ]
+    }
+  ]
+}
